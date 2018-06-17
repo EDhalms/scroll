@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Conv_Lato-Bold';
+    src: local('☺'), url('../fonts/Lato-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_Lato-Regular';
+    src: local('☺'), url('../fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
