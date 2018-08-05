@@ -129,6 +129,7 @@ a.b-header__logo {
     position: fixed;
     top: 260px;
     right: 100px;
+    z-index: 10;
 }
 
 .b-content__item {
@@ -154,6 +155,7 @@ a.b-header__logo {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 10;
 }
 
 .b-content-scroll__btn {
@@ -460,4 +462,51 @@ a.b-header__logo {
 .m-footer__logos_co {
     background: url(../images/coca-cola.svg) left top no-repeat;
     background-size: 80px 40px;
+}
+
+@media screen and (max-width: 890px) {
+
+    .b-content-section-three__wrapper{
+        flex-wrap: nowrap;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 760px){
+
+    .b-header__list {
+        width: 220px;
+        flex-wrap: wrap;
+    }
+
+    .b-content-section-one__wrapper {
+        flex-direction: column;
+    }
+
+    .b-content-section-one__article-one {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .b-content-section-one__brands {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .m-content-section-one__image_row-left {
+        border-right: 1px solid gray;
+    }
+
+
+}
+
+@media screen and (max-width: 630px){
+
+    .b-header__start {
+        width: 125px;
+    }
+
+    .b-content-section-four__article {
+        padding: 0 50px;
+    }
 }
